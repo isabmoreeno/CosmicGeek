@@ -52,18 +52,52 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1,
   },
-  logo: { width: 200, height: 200, marginBottom: 20 },
-  title: { fontSize: 32, fontWeight: '800', color: '#fff', marginBottom: 25 },
-  
-  subtitle: { fontSize: 18, fontWeight: '400', color: '#ffffffff', marginBottom: 40 },
+  logo: { 
+    width: 200, 
+    height: 200, 
+    marginBottom: 20 },
 
-  btn: {
-    backgroundColor: '#fff', width: '100%', borderRadius: 10, paddingVertical: 14, alignItems: 'center',
+  title: { 
+    fontSize: 32, 
+    fontWeight: '800', 
+    color: '#fff', 
+    marginBottom: 25 
+  },
+  
+  subtitle: { 
+    fontSize: 18, 
+    fontWeight: '400', 
+    color: '#ffffffff', 
+    marginBottom: 40 
   },
 
-  login: { color: '#fff', fontSize: 16, fontWeight: '600'},
-  btnPrimary: { backgroundColor: PRIMARY },
-  btnPrimaryText: { color: '#fff', fontWeight: '700' },
-  btnGhost: { borderWidth: 1, borderColor: PRIMARY },
-  btnGhostText: { color: PRIMARY, fontWeight: '700' },
+  btn: {
+    backgroundColor: '#fff', 
+    width: '100%', 
+    borderRadius: 10, 
+    paddingVertical: 14, 
+    alignItems: 'center',
+  },
+
+  login: { 
+    color: '#fff', 
+    fontSize: 16, 
+    fontWeight: '600'
+  },
+
+  btnPrimary: { 
+    backgroundColor: PRIMARY 
+  },
+  btnPrimaryText: { 
+    color: '#fff', 
+    fontWeight: '700'
+   },
+  btnGhost: { 
+    borderWidth: 1, 
+    borderColor: PRIMARY 
+  },
+  btnGhostText: { 
+    color: PRIMARY, 
+    fontWeight: '700' 
+  },
 });

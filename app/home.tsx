@@ -52,7 +52,7 @@ export default function Home() {
 
        {/* Header */}
       <View style={styles.header}>
-        <Ionicons name="menu" size={24} color="#2d2d2d" />
+        <Ionicons name="menu" size={26} color="#2c2a8f" />
         <View style={styles.logoContainer}>
           <Image
             source={require("../assets/images/logo.png")} // sua logo
@@ -61,16 +61,16 @@ export default function Home() {
           />
           <Text style={styles.logoText}>CosmoGeek</Text>
         </View>
-        <Ionicons name="cart-outline" size={24} color="#2d2d2d" />
+        <Ionicons name="cart-outline" size={26} color="#2c2a8f" />
       </View>
 
       {/* Barra de busca */}
       <View style={styles.searchContainer}>
-  <Ionicons name="search" size={20} color="#888" style={styles.searchIcon} />
+  <Ionicons name="search" size={20} color="#747474ff" style={styles.searchIcon} />
   <TextInput
     placeholder="Procure aqui..."
     style={styles.searchInput}
-    placeholderTextColor="#888"
+    placeholderTextColor="#666464ff"
   />
 </View>
 
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     paddingTop: 30,
-    paddingHorizontal: 15,
+    paddingHorizontal: 25,
   },
   header: {
     flexDirection: "row",
@@ -145,15 +145,15 @@ const styles = StyleSheet.create({
     marginRight: 5,
   },
   logoText: {
-    fontSize: 16,
-    fontWeight: "bold",
+    fontSize: 20,
+    fontWeight: "600",
     color: "#2d2d2d",
   },
   searchContainer: {
   flexDirection: "row",
   alignItems: "center",
   borderWidth: 1,
-  borderColor: "#ddd",
+  borderColor: "#878787ff",
   borderRadius: 10,
   paddingHorizontal: 15,
   marginTop: 15,
@@ -173,6 +173,7 @@ searchInput: {
     marginVertical: 15,
     marginBottom: 40,
   },
+
   sectionHeader: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -181,12 +182,14 @@ searchInput: {
   },
   sectionTitle: {
     fontSize: 18,
-    fontWeight: "bold",
+    fontWeight: "600",
+    paddingBottom: 15,
   },
   viewAll: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: "bold",
-    color: "#4B0082",
+    color: "#2c2a8f",
+    paddingBottom: 14,
   },
   card: {
     width: 120,
@@ -199,12 +202,13 @@ searchInput: {
     marginBottom: 8,
   },
   cardTitle: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: "bold",
   },
   cardPrice: {
-    fontSize: 13,
+    fontSize: 16,
     fontWeight: "bold",
-    color: "#4B0082",
+    color: "#2c2a8f",
+    paddingTop: 5,
   },
 });
